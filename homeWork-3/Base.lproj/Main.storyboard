@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vCy-Sj-9vd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GreenGrocer-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homeWork_3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finike Portakal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXC-5Y-ggc">
+                                <rect key="frame" x="107" y="104" width="200" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="hT1-2B-zgX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="29"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="59-portakal1" translatesAutoresizingMaskIntoConstraints="NO" id="yfd-sp-p2L">
+                                <rect key="frame" x="132" y="168" width="150" height="200"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="K9E-Nq-7DW">
+                                <rect key="frame" x="91" y="376" width="276.5" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bl-WQ-X9o">
+                                        <rect key="frame" x="0.0" y="0.0" width="81.5" height="35"/>
+                                        <color key="tintColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="2.5 KG">
+                                                    <attributes>
+                                                        <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="anaRenk"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="voS-iO-6bh">
+                                        <rect key="frame" x="97.5" y="0.0" width="81.5" height="35"/>
+                                        <color key="tintColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="5 KG">
+                                                    <attributes>
+                                                        <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="anaRenk"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fx-NF-rLi">
+                                        <rect key="frame" x="195" y="0.0" width="81.5" height="35"/>
+                                        <color key="tintColor" name="anaRenk"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="10 KG">
+                                                    <attributes>
+                                                        <font key="NSFont" size="18" name="Helvetica-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="anaRenk"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bahçeden evinize gelen doğal lezzetin tadını çıkarın" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6FV-2d-RZa">
+                                <rect key="frame" x="20" y="438" width="374" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="NP8-SW-K0s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5OU-yE-6PA">
+                                <rect key="frame" x="345" y="554" width="51" height="31"/>
+                            </switch>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homekit" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0KC-uy-6Zt">
+                                <rect key="frame" x="23" y="103" width="49" height="50"/>
+                                <color key="tintColor" name="anaRenk"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="0nM-Im-yVv"/>
+                                    <constraint firstAttribute="height" constant="50" id="3Kg-kH-u2U"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Plastik Poşet Yerine Kumaş Poşet İstiyorum!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNz-TP-oPb">
+                                <rect key="frame" x="23" y="546" width="287" height="46"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.95₺ / KG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlh-Yn-1bm">
+                                <rect key="frame" x="23" y="823.5" width="151" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wjf-2o-6TE">
+                                <rect key="frame" x="263" y="827.5" width="129" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Sepete Ekle">
+                                    <color key="baseForegroundColor" name="yaziRenk-2"/>
+                                    <color key="baseBackgroundColor" name="anaRenk"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Kurye Zili çalmasın" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TrI-AR-t4J">
+                                <rect key="frame" x="23" y="630" width="228" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="SAx-v1-crj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" name="anaRenk"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDh-Tj-KOQ">
+                                <rect key="frame" x="345" y="645" width="49" height="31"/>
+                            </switch>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hhe-rk-jbv">
+                                <rect key="frame" x="343" y="104.5" width="49" height="50.5"/>
+                                <color key="tintColor" name="anaRenk"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="yaziRenk-1"/>
+                        <constraints>
+                            <constraint firstItem="DNz-TP-oPb" firstAttribute="centerY" secondItem="5OU-yE-6PA" secondAttribute="centerY" id="0yh-St-Coi"/>
+                            <constraint firstItem="hhe-rk-jbv" firstAttribute="trailing" secondItem="Wjf-2o-6TE" secondAttribute="trailing" id="3Dk-cJ-lcK"/>
+                            <constraint firstItem="5OU-yE-6PA" firstAttribute="leading" secondItem="DNz-TP-oPb" secondAttribute="trailing" constant="35" id="3Vo-jv-A2k"/>
+                            <constraint firstItem="6FV-2d-RZa" firstAttribute="top" secondItem="K9E-Nq-7DW" secondAttribute="bottom" constant="27" id="4uS-LA-P84"/>
+                            <constraint firstItem="TrI-AR-t4J" firstAttribute="top" secondItem="DNz-TP-oPb" secondAttribute="bottom" constant="38" id="5G8-Sc-ZIM"/>
+                            <constraint firstItem="5OU-yE-6PA" firstAttribute="leading" secondItem="cDh-Tj-KOQ" secondAttribute="leading" id="5IF-Ey-ZRk"/>
+                            <constraint firstItem="0KC-uy-6Zt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="8D5-Ak-j6D"/>
+                            <constraint firstItem="DNz-TP-oPb" firstAttribute="top" secondItem="6FV-2d-RZa" secondAttribute="bottom" constant="47" id="DiD-Y4-Ye9"/>
+                            <constraint firstItem="6FV-2d-RZa" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="FcM-I7-BQa"/>
+                            <constraint firstItem="0KC-uy-6Zt" firstAttribute="top" secondItem="IXC-5Y-ggc" secondAttribute="top" id="GHM-zQ-chy"/>
+                            <constraint firstItem="DNz-TP-oPb" firstAttribute="leading" secondItem="TrI-AR-t4J" secondAttribute="leading" id="II9-yT-cdg"/>
+                            <constraint firstItem="IXC-5Y-ggc" firstAttribute="centerX" secondItem="yfd-sp-p2L" secondAttribute="centerX" id="IQl-J1-DdV"/>
+                            <constraint firstItem="K9E-Nq-7DW" firstAttribute="top" secondItem="yfd-sp-p2L" secondAttribute="bottom" constant="8" symbolic="YES" id="Kym-UJ-Ft9"/>
+                            <constraint firstItem="K9E-Nq-7DW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="Nbw-bY-R3A"/>
+                            <constraint firstItem="Nlh-Yn-1bm" firstAttribute="centerY" secondItem="Wjf-2o-6TE" secondAttribute="centerY" id="OLW-eT-e2h"/>
+                            <constraint firstItem="TrI-AR-t4J" firstAttribute="bottom" secondItem="cDh-Tj-KOQ" secondAttribute="bottom" id="R02-Gy-d1H"/>
+                            <constraint firstItem="6FV-2d-RZa" firstAttribute="trailing" secondItem="5OU-yE-6PA" secondAttribute="trailing" id="Ry3-ou-Xh2"/>
+                            <constraint firstItem="yfd-sp-p2L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="132" id="SnT-6h-EL6"/>
+                            <constraint firstItem="0KC-uy-6Zt" firstAttribute="centerY" secondItem="hhe-rk-jbv" secondAttribute="centerY" id="UYk-uA-rkI"/>
+                            <constraint firstItem="0KC-uy-6Zt" firstAttribute="leading" secondItem="DNz-TP-oPb" secondAttribute="leading" id="XmK-aL-ddv"/>
+                            <constraint firstItem="yfd-sp-p2L" firstAttribute="centerX" secondItem="6FV-2d-RZa" secondAttribute="centerX" id="Y6d-il-zhn"/>
+                            <constraint firstItem="Nlh-Yn-1bm" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="chp-EF-Nzh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hhe-rk-jbv" secondAttribute="trailing" constant="22" id="d9h-J3-Zrs"/>
+                            <constraint firstItem="hhe-rk-jbv" firstAttribute="leading" secondItem="IXC-5Y-ggc" secondAttribute="trailing" constant="36" id="fVm-vm-w2R"/>
+                            <constraint firstItem="Wjf-2o-6TE" firstAttribute="leading" secondItem="Nlh-Yn-1bm" secondAttribute="trailing" constant="89" id="hNX-or-jE5"/>
+                            <constraint firstItem="5OU-yE-6PA" firstAttribute="top" secondItem="6FV-2d-RZa" secondAttribute="bottom" constant="55" id="j3j-bT-iTi"/>
+                            <constraint firstItem="yfd-sp-p2L" firstAttribute="top" secondItem="IXC-5Y-ggc" secondAttribute="bottom" constant="25" id="kcH-hg-dM7"/>
+                            <constraint firstItem="hhe-rk-jbv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="lZf-Fa-0d2"/>
+                            <constraint firstItem="TrI-AR-t4J" firstAttribute="leading" secondItem="Nlh-Yn-1bm" secondAttribute="leading" id="oQ9-op-kwJ"/>
+                            <constraint firstItem="cDh-Tj-KOQ" firstAttribute="leading" secondItem="TrI-AR-t4J" secondAttribute="trailing" constant="94" id="qGI-Vz-V1q"/>
+                            <constraint firstItem="cDh-Tj-KOQ" firstAttribute="top" secondItem="5OU-yE-6PA" secondAttribute="bottom" constant="60" id="rDr-XQ-TaG"/>
+                            <constraint firstItem="IXC-5Y-ggc" firstAttribute="leading" secondItem="0KC-uy-6Zt" secondAttribute="trailing" constant="35" id="tXi-Zq-IfR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wjf-2o-6TE" secondAttribute="bottom" constant="3.5" id="wHB-yR-saE"/>
+                            <constraint firstItem="0KC-uy-6Zt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="x2G-Zl-Onm"/>
+                            <constraint firstItem="6FV-2d-RZa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zkO-zp-ujp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="GreenGrocer" id="ozV-gm-tli"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="68.973214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="J1s-eb-aNQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vCy-Sj-9vd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AQY-lS-RET">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YrT-4c-Sja"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2s-CO-Nth" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-203" y="69"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="59-portakal1" width="200" height="200"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
+        <image name="homekit" catalog="system" width="128" height="106"/>
+        <namedColor name="anaRenk">
+            <color red="0.28999999165534973" green="0.075000002980232239" blue="0.54900002479553223" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk-1">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk-2">
+            <color red="1" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
